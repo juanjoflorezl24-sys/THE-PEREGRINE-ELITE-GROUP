@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Peregrine Elite Group | Limpieza a domicilio en Cali</title>
+<meta name="description" content="Servicio de limpieza a domicilio en Cali para hogares, apartamentos y oficinas. Cotización sin compromiso por WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,500;0,800;1,800&family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fbfaf9;--surface:#ffffff;--text:#141416;--muted:#5d5d64;--line:#e4e1de;--accent:#c8101c;--on-accent:#ffffff;--band:#f1eeec;
+  color-scheme:light;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0a0a0b;--surface:#141416;--text:#f5f4f2;--muted:#a9a8ae;--line:#2b2b30;--accent:#e5222c;--on-accent:#ffffff;--band:#101012;color-scheme:dark}
+}
+:root[data-theme="dark"]{--bg:#0a0a0b;--surface:#141416;--text:#f5f4f2;--muted:#a9a8ae;--line:#2b2b30;--accent:#e5222c;--on-accent:#ffffff;--band:#101012;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:400 17px/1.6 "Hanken Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+h1,h2,h3{font-family:"Archivo","Arial Narrow",Arial,sans-serif;margin:0;line-height:1.02;letter-spacing:-.01em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+section{padding:64px 0}
+.hero{padding:56px 0 72px;border-bottom:1px solid var(--line);background:var(--bg)}
+.hero h1{font-weight:800;font-style:italic;font-size:clamp(2.6rem,9vw,5.6rem);max-width:12ch;text-wrap:balance}
+.hero h1 span{display:inline-block;background:linear-gradient(transparent 62%,var(--accent) 62%,var(--accent) 88%,transparent 88%);padding:0 .08em}
+.brand{font-family:"Archivo",Arial,sans-serif;font-weight:800;font-size:1rem;margin:0 0 28px;display:flex;align-items:center;gap:10px}
+.brand i{width:14px;height:14px;background:var(--accent);transform:skewX(-18deg);display:inline-block}
+.lead{font-size:1.2rem;max-width:34ch;color:var(--muted);margin:24px 0 32px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;text-decoration:none;font-weight:700;padding:15px 24px;border-radius:999px;background:var(--accent);color:var(--on-accent)}
+.btn.ghost{background:transparent;color:var(--text);border:2px solid var(--line)}
+.btn:hover{filter:brightness(1.08)}
+.facts{display:flex;flex-wrap:wrap;gap:8px 22px;margin:34px 0 0;padding:0;list-style:none;color:var(--muted);font-size:.98rem}
+.facts li::before{content:"✓ ";color:var(--accent);font-weight:700}
+h2{font-weight:800;font-size:clamp(1.9rem,5vw,3rem);margin-bottom:10px}
+.sub{color:var(--muted);margin:0 0 34px;max-width:52ch}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.pack{background:var(--surface);border:1px solid var(--line);border-top:5px solid var(--c,var(--accent));border-radius:14px;padding:22px 20px;display:flex;flex-direction:column}
+.pack h3{font-size:1.35rem;font-weight:800}
+.price{font-family:"Archivo",Arial,sans-serif;font-weight:800;font-size:1.55rem;margin:10px 0 0;color:var(--c,var(--accent))}
+.hours{color:var(--muted);font-size:.95rem;margin:2px 0 14px}
+.pack ul{margin:0 0 16px;padding-left:1.1em;font-size:.97rem}
+.pack li{margin-bottom:5px}
+.pack .for{margin-top:auto;font-size:.92rem;padding-top:12px;border-top:1px solid var(--line);color:var(--muted)}
+.band{background:var(--band);border-block:1px solid var(--line)}
+.cats{display:grid;gap:26px 34px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.cats h3{font-size:1.2rem;font-weight:800;margin-bottom:8px;padding-bottom:8px;border-bottom:2px solid var(--accent)}
+.cats dl{margin:0}
+.cats .row{display:flex;justify-content:space-between;gap:14px;padding:8px 0;border-bottom:1px solid var(--line);font-size:.97rem}
+.cats dt{margin:0}
+.cats dd{margin:0;font-weight:700;white-space:nowrap}
+.note{margin-top:26px;padding:16px 18px;border-left:4px solid var(--accent);background:var(--surface);font-size:.95rem;color:var(--muted);max-width:70ch}
+.steps{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));counter-reset:s;list-style:none;padding:0;margin:0}
+.steps li{counter-increment:s;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--accent);color:var(--on-accent);font:800 1.1rem "Archivo",Arial,sans-serif;margin-bottom:12px}
+.steps b{display:block;font-size:1.1rem;margin-bottom:4px}
+.inc{display:grid;gap:12px 28px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));list-style:none;padding:0;margin:0}
+.inc li::before{content:"✓";color:var(--accent);font-weight:800;margin-right:10px}
+.contact{background:var(--accent);color:var(--on-accent);border-radius:20px;padding:40px 24px;text-align:center}
+.contact h2{margin-bottom:8px}
+.contact p{margin:6px 0}
+.contact .num{font:800 clamp(1.8rem,6vw,2.8rem) "Archivo",Arial,sans-serif;display:block;margin:14px 0 20px}
+.contact .btn{background:#fff;color:#8f0a13}
+footer{padding:30px 0 120px;text-align:center;color:var(--muted);font-size:.92rem}
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:5;background:#1aa354;color:#fff;text-decoration:none;font-weight:700;padding:14px 20px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.28)}
+.chips{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0;margin:0 0 22px}
+.chip{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:9px 16px;font-size:.95rem;font-weight:500}
+.chip::before{content:"";display:inline-block;width:8px;height:8px;background:var(--accent);border-radius:50%;margin-right:8px}
+.chip.ask{border-style:dashed;color:var(--muted)}
+.chip.ask::before{background:var(--muted)}
+.fincas .pack{--c:var(--accent)}
+.two{display:grid;gap:26px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:34px}
+.two h3{font-size:1.2rem;font-weight:800;margin-bottom:10px;padding-bottom:8px;border-bottom:2px solid var(--accent)}
+.two ul{margin:0;padding-left:1.1em}.two li{margin-bottom:6px}
+@media (max-width:520px){section{padding:48px 0}.cats .row{font-size:.93rem}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="brand"><i></i>The Peregrine Elite Group</p>
+    <h1>Tu espacio limpio, <span>tu mejor imagen</span></h1>
+    <p class="lead">Limpieza a domicilio para hogares, apartamentos y oficinas en Cali. Productos y herramientas incluidos.</p>
+    <div class="btns">
+      <a class="btn" href="https://wa.me/573044059245?text=Hola%2C%20quiero%20cotizar%20un%20servicio%20de%20limpieza" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+      <a class="btn ghost" href="#paquetes">Ver paquetes</a>
+    </div>
+    <ul class="facts">
+      <li>Atención personalizada</li><li>Puntualidad y horarios flexibles</li><li>Compromiso con tu satisfacción</li><li>Cupos limitados por semana</li>
+    </ul>
+  </div>
+</header>
+
+<main>
+<section id="paquetes">
+  <div class="wrap">
+    <h2>Nuestros paquetes</h2>
+    <p class="sub">Elige el que se parezca más a tu vivienda. El valor exacto depende del tamaño y del estado del lugar, y la cotización no tiene compromiso.</p>
+    <div class="grid">
+      <article class="pack" style="--c:#1d6fd6">
+        <h3>Limpieza Esencial</h3>
+        <p class="price">$70.000 – $90.000</p>
+        <p class="hours">2 a 3 horas</p>
+        <ul><li>Barrer y trapear pisos</li><li>Limpiar superficies y muebles</li><li>Cocina básica y mesones</li><li>1 baño (condiciones normales)</li><li>Orden básico de sala y comedor</li><li>Retiro de residuos</li></ul>
+        <p class="for">Ideal para viviendas pequeñas o mantenimiento general.</p>
+      </article>
+      <article class="pack" style="--c:#1f9d4c">
+        <h3>Limpieza Integral</h3>
+        <p class="price">$110.000 – $160.000</p>
+        <p class="hours">4 a 6 horas</p>
+        <ul><li>Todo lo incluido en Esencial</li><li>Habitaciones, sala y comedor</li><li>Cocina y estufa exterior</li><li>Hasta 2 baños (condiciones normales)</li><li>Espejos y vidrios interiores (acordados)</li><li>Puertas, manijas y superficies</li><li>Tendido de camas (con sábanas del cliente)</li></ul>
+        <p class="for">Ideal para hogares medianos.</p>
+      </article>
+      <article class="pack" style="--c:#7a3fd1">
+        <h3>Limpieza Profunda</h3>
+        <p class="price">$180.000 – $300.000+</p>
+        <p class="hours">6 a 10+ horas</p>
+        <ul><li>Limpieza detallada de todas las áreas</li><li>Detalle en cocina y baños</li><li>Retiro de grasa ligera o moderada</li><li>Zócalos, marcos y puertas accesibles</li><li>Ventanas interiores (acordadas)</li><li>Electrodomésticos (exterior e interior)</li><li>Retiro de residuos</li><li>Organización de espacios y balcón (acordado)</li></ul>
+        <p class="for">Requiere más tiempo y detalle. La suciedad incrustada o el sarro severo pueden tener un costo adicional.</p>
+      </article>
+      <article class="pack" style="--c:#e8760f">
+        <h3>Limpieza de mudanza o entrega</h3>
+        <p class="price">$250.000 – $500.000+</p>
+        <p class="hours">8 a 14+ horas</p>
+        <ul><li>Pisos y superficies accesibles</li><li>Cocina y baños (mayor detalle)</li><li>Gabinetes (por dentro si están vacíos)</li><li>Ventanas interiores</li><li>Puertas, marcos y zócalos</li><li>Retiro de residuos comunes</li></ul>
+        <p class="for">No incluye escombros, moho peligroso ni limpieza en altura. Se cotiza según el estado real.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="adicionales">
+  <div class="wrap">
+    <h2>Servicios adicionales</h2>
+    <p class="sub">Personaliza tu limpieza a tu medida. Suma solo lo que necesitas.</p>
+    <div class="cats">
+      <div><h3>Cocina</h3><dl>
+        <div class="row"><dt>Interior del microondas</dt><dd>$8.000 – $15.000</dd></div>
+        <div class="row"><dt>Interior de la nevera</dt><dd>$20.000 – $40.000</dd></div>
+        <div class="row"><dt>Interior del horno</dt><dd>$20.000 – $40.000</dd></div>
+        <div class="row"><dt>Campana extractora y filtros</dt><dd>$20.000 – $40.000</dd></div>
+        <div class="row"><dt>Gabinetes y alacenas (interior)</dt><dd>$20.000 – $40.000</dd></div>
+        <div class="row"><dt>Estufa y plancha (detalle profundo)</dt><dd>$15.000 – $30.000</dd></div>
+        <div class="row"><dt>Despensa (limpieza y orden)</dt><dd>$15.000 – $35.000</dd></div>
+        <div class="row"><dt>Lavado de loza</dt><dd>$10.000 – $25.000</dd></div>
+      </dl></div>
+      <div><h3>Baños</h3><dl>
+        <div class="row"><dt>Baño adicional (limpieza completa)</dt><dd>$15.000 – $30.000</dd></div>
+        <div class="row"><dt>Azulejos y juntas (sarro)</dt><dd>$15.000 – $40.000</dd></div>
+        <div class="row"><dt>Cuadros y decoración</dt><dd>$5.000 – $15.000</dd></div>
+      </dl>
+      <h3 style="margin-top:26px">Exteriores</h3><dl>
+        <div class="row"><dt>Balcón pequeño</dt><dd>$10.000 – $25.000</dd></div>
+        <div class="row"><dt>Balcón grande, terraza o patio</dt><dd>$25.000 – $60.000</dd></div>
+        <div class="row"><dt>Parqueadero o garaje</dt><dd>$20.000 – $50.000</dd></div>
+        <div class="row"><dt>Lavadero y zona de ropas</dt><dd>$10.000 – $30.000</dd></div>
+      </dl></div>
+      <div><h3>Hogar</h3><dl>
+        <div class="row"><dt>Ventanas interiores</dt><dd>$15.000 – $40.000</dd></div>
+        <div class="row"><dt>Persianas</dt><dd>$10.000 – $30.000</dd></div>
+        <div class="row"><dt>Cortinas (desempolvar o lavar)</dt><dd>$15.000 – $40.000</dd></div>
+        <div class="row"><dt>Closets y organización de ropa</dt><dd>$20.000 – $50.000</dd></div>
+        <div class="row"><dt>Organización de espacios</dt><dd>$15.000 – $35.000</dd></div>
+        <div class="row"><dt>Cambio de sábanas limpias</dt><dd>$5.000 – $10.000</dd></div>
+        <div class="row"><dt>Desinfección de superficies</dt><dd>$15.000 – $35.000</dd></div>
+        <div class="row"><dt>Ventiladores y lámparas</dt><dd>$5.000 – $15.000</dd></div>
+        <div class="row"><dt>Telarañas y techos</dt><dd>$10.000 – $25.000</dd></div>
+        <div class="row"><dt>Cuarto de niños y juguetes</dt><dd>$15.000 – $35.000</dd></div>
+        <div class="row"><dt>Lavadora (exterior e interior)</dt><dd>$15.000 – $30.000</dd></div>
+        <div class="row"><dt>Planchado de ropa (por prenda)</dt><dd>$2.000 – $4.000</dd></div>
+      </dl></div>
+      <div><h3>Cuidado especial</h3><dl>
+        <div class="row"><dt>Sofás (limpieza y desinfección)</dt><dd>$30.000 – $80.000</dd></div>
+        <div class="row"><dt>Cojines y almohadas</dt><dd>$5.000 – $15.000</dd></div>
+        <div class="row"><dt>Zona de mascotas (pelos)</dt><dd>$15.000 – $35.000</dd></div>
+      </dl></div>
+    </div>
+    <p class="note">Ya incluido en Profunda: electrodomésticos, ventanas, organización y balcón (acordados). En Integral: espejos y vidrios interiores (acordados). En Mudanza: ventanas y gabinetes vacíos. Los precios varían según el tamaño y el estado del lugar.</p>
+  </div>
+</section>
+
+<section id="como">
+  <div class="wrap">
+    <h2>Así de fácil</h2>
+    <p class="sub">Sin papeleo ni llamadas largas.</p>
+    <ol class="steps">
+      <li><b>Escríbenos por WhatsApp</b>Cuéntanos qué tipo de lugar es, su tamaño y en qué estado está. Una foto de la cocina y los baños ayuda mucho.</li>
+      <li><b>Recibe tu cotización</b>Te damos un valor claro y un tiempo estimado, sin compromiso.</li>
+      <li><b>Agenda y relájate</b>Llegamos puntuales con productos y herramientas, y dejamos tu espacio limpio y ordenado.</li>
+    </ol>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2>¿Qué incluye el servicio?</h2>
+    <p class="sub">Tu tranquilidad también es parte del servicio.</p>
+    <ul class="inc">
+      <li>Productos y herramientas de limpieza (o los que acuerdes)</li>
+      <li>Atención personalizada</li>
+      <li>Cuidado de tus pertenencias</li>
+      <li>Entrega de espacios limpios y ordenados</li>
+      <li>Retiro de residuos hasta la zona de basuras del lugar</li>
+      <li>Pago en efectivo o por transferencia</li>
+    </ul>
+  </div>
+</section>
+
+<section class="fincas" id="fincas">
+  <div class="wrap">
+    <h2>Limpieza para fincas</h2>
+    <p class="sub">Servicio por jornada para fincas de recreo en el sur de Cali: Pance y Cañasgordas. Cotizamos según el tamaño y el estado de cada finca, con fotos o un video antes de dar el valor.</p>
+    <div class="grid">
+      <article class="pack"><h3>Finca pequeña</h3><p class="price">$250.000 – $400.000</p><p class="hours">2 a 4 habitaciones · 1 jornada de 8 a 10 horas</p><p class="for">Ideal para fines de semana y entregas entre huéspedes.</p></article>
+      <article class="pack"><h3>Finca mediana</h3><p class="price">$400.000 – $700.000</p><p class="hours">5 a 8 habitaciones · jornada larga, con ayuda</p><p class="for">Ideal para temporadas y fincas con varias zonas.</p></article>
+      <article class="pack"><h3>Finca grande</h3><p class="price">Desde $700.000</p><p class="hours">Más de 8 habitaciones · 2 personas o 2 días</p><p class="for">Se cotiza según el tamaño y el estado real.</p></article>
+    </div>
+    <div class="two">
+      <div><h3>Qué incluye</h3><ul><li>Habitaciones y baños, con camas tendidas (sábanas del cliente)</li><li>Cocina grande y zona de asado</li><li>Kiosco, terrazas y corredores</li><li>Zona de ropas y bodegas</li><li>Piscina: barrido de bordes y limpieza de la zona y los muebles</li><li>Retiro de residuos hasta la zona de basuras</li></ul></div>
+      <div><h3>Tipos de servicio</h3><ul><li>Limpieza de entrega, después de que se van los huéspedes</li><li>Limpieza antes de la llegada</li><li>Limpieza profunda de temporada</li></ul>
+      <h3 style="margin-top:24px">Condiciones</h3><ul><li>El transporte se cobra aparte</li><li>Anticipo de 30% por transferencia para confirmar</li><li>No incluye tratamiento del agua ni químicos de piscina, poda ni escombros</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="cobertura">
+  <div class="wrap">
+    <h2>Atendemos el sur de Cali</h2>
+    <p class="sub">Estamos en Cali, Valle del Cauca, y atendemos principalmente la zona sur, incluyendo El Caney. ¿Estás en otro sector? Escríbenos y confirmamos disponibilidad y costo de transporte.</p>
+    <ul class="chips">
+      <li class="chip">El Caney</li><li class="chip">Ciudad Jardín</li><li class="chip">Limonar y Unicentro</li><li class="chip">Valle del Lili y Ciudad 2000</li><li class="chip">Meléndez y Cañaveralejo</li><li class="chip">Pance y Cañasgordas</li><li class="chip">El Ingenio y Capri</li><li class="chip">Tequendama y San Fernando</li><li class="chip ask">Otros sectores: consultar disponibilidad</li>
+    </ul>
+    <a class="btn" href="https://wa.me/573044059245?text=Hola%2C%20quiero%20verificar%20si%20atienden%20mi%20zona" target="_blank" rel="noopener">Verificar mi zona por WhatsApp</a>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="wrap">
+    <div class="contact">
+      <h2>Cotiza sin compromiso</h2>
+      <p>Servicio en el sur de Cali.</p>
+      <span class="num">+57 304 405 9245</span>
+      <a class="btn" href="https://wa.me/573044059245?text=Hola%2C%20quiero%20cotizar%20un%20servicio%20de%20limpieza" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+      <p style="margin-top:20px">Limpieza que se nota.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">The Peregrine Elite Group · Cali, Colombia</div></footer>
+<a class="fab" href="https://wa.me/573044059245?text=Hola%2C%20quiero%20cotizar%20un%20servicio%20de%20limpieza" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">WhatsApp</a>
+</body>
+</html>
